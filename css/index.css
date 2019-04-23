@@ -39,3 +39,36 @@ body {
     display: inline-block;
     margin-left: 20px;
 }
+
+section {
+    margin-top: 10px;
+}
+
+form {
+    background-color: #dcdcdc;
+    width: 230px;
+    padding: 8px;
+    border-radius: 5px 5px 0 0;
+}
+
+input[type="search"] {
+    border-radius: 10px;
+    border: 1px solid #acacac;
+    padding-left: 8px;
+}
+
+.menu-departamentos {
+    background-color: #dcdcdc;
+    width: 230px;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.menu-departamentos h3 {
+    padding-bottom: 8px;
+}
+
+.menu-departamentos li {
+    background-color: #fff;
+    border-bottom: 1px solid #dcdcdc;
+} 
