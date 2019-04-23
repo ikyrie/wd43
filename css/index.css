@@ -3,6 +3,11 @@ body {
     font-family: "Lucida Sans Unicode", sans-serif;
 }
 
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
 .sacola {
     background-image: url(../img/sacola.png);
     background-repeat: no-repeat;
@@ -10,10 +15,17 @@ body {
     font-size: 14px;
     text-align: right;
     width: 140px;
+    padding-top: 8px;
     padding-right: 35px;
+    display: inline-block;
 }
 
 .menu-opcoes ul {
     font-size: 15px;
     color: #036;
+}
+
+.menu-opcoes ul li {
+    display: inline-block;
+    margin-left: 20px;
 }
