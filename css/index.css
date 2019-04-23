@@ -6,6 +6,7 @@ body {
 .container {
     width: 940px;
     margin: 0 auto;
+    position: relative;
 }
 
 .sacola {
@@ -18,6 +19,15 @@ body {
     padding-top: 8px;
     padding-right: 35px;
     display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu-opcoes {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 .menu-opcoes ul {
