@@ -125,6 +125,8 @@ button {
     margin: 10px 0;
     padding: 10px;
     width: 445px;
+    box-shadow:inset 1px 1px 4px #999;
+    border-radius: 4px;
 }
 
 .painel h2 {
@@ -132,6 +134,7 @@ button {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 10px;
+    text-shadow: 3px 3px 2px rgba(255, 255, 255, 0.5);
 }
 
 .painel ol {
@@ -154,10 +157,12 @@ button {
 
 .novidades {
     background-color: #f5dcdc;
+    background: linear-gradient(#f5dcdc, #bebef4);
 }
 
 .mais-vendidos {
     background-color: #dcdcf5;
+    background: linear-gradient(#dcdcf5, #f4bebe);
 }
 
 footer {
