@@ -52,12 +52,24 @@ form {
     padding: 8px;
     border-radius: 5px 5px 0 0;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 input[type="search"] {
     border-radius: 10px;
     border: 1px solid #acacac;
     padding-left: 8px;
+}
+
+button {
+    background-image: url(../img/busca.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    text-indent: -9999px;
+    border: none;
 }
 
 .menu-departamentos {
@@ -122,4 +134,40 @@ input[type="search"] {
 
 .mais-vendidos {
     background-color: #dcdcf5;
+}
+
+footer {
+    background-image: url(../img/fundo-rodape.png);
+    padding: 20px 0;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 8px;
+}
+
+a[href*="twitter.com"] {
+    background-image: url(../img/twitter.png);
+}
+
+a[href*="facebook.com"] {
+    background-image: url(../img/facebook.png);
+}
+
+a[href*="gplus.com"] {
+    background-image: url(../img/googleplus.png);
 }
