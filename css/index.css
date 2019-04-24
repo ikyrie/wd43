@@ -1,6 +1,6 @@
 body {
     color: #333;
-    font-family: "Lucida Sans Unicode", sans-serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .container {
@@ -42,6 +42,8 @@ body {
 
 section {
     margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 form {
@@ -49,6 +51,7 @@ form {
     width: 230px;
     padding: 8px;
     border-radius: 5px 5px 0 0;
+    box-sizing: border-box;
 }
 
 input[type="search"] {
@@ -60,15 +63,24 @@ input[type="search"] {
 .menu-departamentos {
     background-color: #dcdcdc;
     width: 230px;
-    padding: 8px;
+    padding: 8px 0;
     margin-top: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .menu-departamentos h3 {
     padding-bottom: 8px;
+    padding-left: 8px;
 }
 
 .menu-departamentos li {
     background-color: #fff;
     border-bottom: 1px solid #dcdcdc;
-} 
+    padding: 4px 8px;
+}
+
+.menu-departamentos li a {
+    color: #333;
+    text-decoration: none;
+}
