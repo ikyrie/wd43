@@ -16,6 +16,14 @@ p {
     text-align: justify;
 }
 
+p::first-letter {
+    font-weight: bold;
+}
+
+p::first-line {
+    font-variant: small-caps;
+}
+
 figure {
     background-color: #f2eded;
     border: 1px solid #ccc;
