@@ -130,6 +130,48 @@ header h1 {
     margin: 1em 0;
 }
 
+.detalhes {
+    padding: 2em 0;
+}
+
+.detalhes h2 {
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+.detalhes p {
+    margin: 1em 0;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.detalhes table {
+    border-spacing: .2em;
+    border-collapse: separate;
+}
+
+.detalhes thead {
+    background-color: #999;
+}
+
+.detalhes thead th {
+    font-weight: bold;
+    padding: .3em 1em;
+    text-align: center;
+}
+
+.detalhes td {
+    padding: .3em;
+}
+
+.detalhes tr:nth-child(2n) {
+    background-color: #ccc;
+}
+
+.detalhes td:first-child {
+    font-style: italic;
+}
+
 footer {
     background-image: url(../img/fundo-rodape.png);
     padding: 20px 0;
@@ -164,6 +206,12 @@ a[href*="facebook.com"] {
 
 a[href*="gplus.com"] {
     background-image: url(../img/googleplus.png);
+}
+
+@media(min-width: 500px) {
+    .detalhes {
+        font-size: 1.2em;
+    }
 }
 
 @media(min-width:640px) {
