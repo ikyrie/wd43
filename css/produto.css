@@ -1,0 +1,77 @@
+body {
+    color: #333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.container {
+    width: 96%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sacola {
+    display: none;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+}
+
+header h1 img {
+    width: 50%;
+}
+
+.menu-opcoes {
+    text-align: center;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+    color: #036;
+}
+
+.menu-opcoes ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.menu-opcoes a:active {
+    color: #867dc6;
+}
+
+footer {
+    background-image: url(../img/fundo-rodape.png);
+    padding: 20px 0;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 8px;
+}
+
+a[href*="twitter.com"] {
+    background-image: url(../img/twitter.png);
+}
+
+a[href*="facebook.com"] {
+    background-image: url(../img/facebook.png);
+}
+
+a[href*="gplus.com"] {
+    background-image: url(../img/googleplus.png);
+}
