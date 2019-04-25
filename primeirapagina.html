@@ -5,8 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+
+        div {
+            width: 120px;
+            height: 120px;
+        }
+
+        .bloco1 {
+            background-color: red;
+            transition: 1s;
+        }
+
+        .bloco1:hover {
+            transform: rotate(360deg) scale(1.2) translate(10px, 40px);
+            transition: 1s;
+        }
+
+        .bloco2 {
+            background-color: yellow;
+        }
+    
+    </style>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div class="bloco1"></div>
+    <div class="bloco2"></div>
 </body>
 </html>
