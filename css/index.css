@@ -200,3 +200,52 @@ a[href*="facebook.com"] {
 a[href*="gplus.com"] {
     background-image: url(../img/googleplus.png);
 }
+
+@media(max-width:480px) {
+    .container {
+        width: 96%;
+    }
+
+    header h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    header h1 img {
+        width: 50%;
+    }
+
+    .sacola {
+        display: none;
+    }
+
+    .menu-opcoes {
+        position: static;
+        text-align: center;
+    }
+
+    .menu-opcoes ul li {
+        margin: 5px;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    form, .menu-departamentos, aside + img {
+        width: 100%
+    }
+
+    .painel {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .painel li {
+        width: 30%;
+    }
+
+    .painel img {
+        width: 100%;
+    }
+}
